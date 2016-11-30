@@ -1,0 +1,22 @@
+body {
+    background-color: #333;
+    cursor: pointer;
+}
+#gameName{
+    color: #ffffff;
+    font-family: "Courier New";
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+canvas{
+    display: block;
+    /*background: transparent;*/
+    margin: 30px auto 0;
+}
+#player,
+#enemy,
+#stats{
+    display: block;
+    margin: -500px auto 0;
+}
